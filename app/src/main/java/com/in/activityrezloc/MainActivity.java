@@ -16,7 +16,7 @@ import com.google.android.gms.location.ActivityRecognition;
 import com.google.android.gms.location.ActivityRecognitionApi;
 
 public class MainActivity extends AppCompatActivity implements GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener, ResultCallback<Status> {
-    private static final String TAG ="ACREZ" ;
+    private static final String TAG ="ACTIVITY_REGZ" ;
     protected GoogleApiClient mGoogleApiClient;
     protected PendingIntent mPendingIntent;
     @Override
